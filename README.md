@@ -2,6 +2,20 @@
 
 Bienvenue dans notre modèle Next.js complet, méticuleusement conçu pour améliorer votre expérience de développement avec Prettier pour la mise en forme du code, Storybook pour le développement de composants, Cypress pour les tests de bout en bout, et Stitches pour des styles et des thèmes sans couture. Ce modèle embrasse la philosophie du Développement Axé sur les Composants, mettant l'accent sur la modularité, la réutilisabilité et la clarté dans la structure de votre application.
 
+## Développement Axé sur les Composants
+
+Adoptez cette philosophie en mettant l'accent sur la construction d'interfaces à travers les composants. Explorez davantage le concept sur [ComponentDriven.org](https://www.componentdriven.org/). Cette approche met en avant les avantages suivants :
+
+- **Modularité :** Développez et itérez rapidement avec des composants isolés et testables indépendamment.
+- **Réutilisabilité :** Réutilisez des composants bien définis pour assurer une apparence cohérente dans votre application.
+- **Clarté :** Facilitez la collaboration entre designers, développeurs et autres parties prenantes en fournissant un langage partagé à travers les composants.
+
+## Avantages du Développement Axé sur les Composants
+
+- **Développement Efficace :** Construisez et itérez rapidement avec des composants isolés et testables indépendamment.
+- **Design Cohérent :** Assurez une apparence cohérente en réutilisant des composants bien définis.
+- **Collaboration :** Facilitez la collaboration entre designers, développeurs et autres parties prenantes en fournissant un langage partagé à travers les composants.
+
 ## Pour Commencer
 
 1. **Cloner le Dépôt :**
@@ -57,14 +71,6 @@ Explorez la [documentation Cypress](https://docs.cypress.io/) pour des tests de 
 
 [Stitches](https://stitches.dev/) est une bibliothèque qui offre une approche novatrice pour la gestion des styles et des thèmes. Elle vous permet de définir vos styles directement dans votre code JavaScript, offrant ainsi une meilleure maintenabilité et une utilisation dynamique.Personnalisez et étendez les styles avec facilité dans le fichier `stitches.config.js`.
 
-## Développement Axé sur les Composants
-
-Adoptez cette philosophie en mettant l'accent sur la construction d'interfaces à travers les composants. Explorez davantage le concept sur [ComponentDriven.org](https://www.componentdriven.org/). Cette approche met en avant les avantages suivants :
-
-- **Modularité :** Développez et itérez rapidement avec des composants isolés et testables indépendamment.
-- **Réutilisabilité :** Réutilisez des composants bien définis pour assurer une apparence cohérente dans votre application.
-- **Clarté :** Facilitez la collaboration entre designers, développeurs et autres parties prenantes en fournissant un langage partagé à travers les composants.
-
 ## Structure de Dossiers
 
 Notre structure de dossiers respecte les meilleures pratiques établies pour le Développement Axé sur les Composants:
@@ -107,26 +113,6 @@ Notre structure de dossiers respecte les meilleures pratiques établies pour le 
 
 Étendez et modifiez cette structure avec la confiance que chaque changement résonne à travers votre écosystème axé sur les composants.
 
-## Avantages du Développement Axé sur les Composants
-
-- **Développement Efficace :** Construisez et itérez rapidement avec des composants isolés et testables indépendamment.
-- **Design Cohérent :** Assurez une apparence cohérente en réutilisant des composants bien définis.
-- **Collaboration :** Facilitez la collaboration entre designers, développeurs et autres parties prenantes en fournissant un langage partagé à travers les composants.
-
-## Normes de Commit Git
-
-Nous suivons les normes de commit [Conventional Commits](https://www.conventionalcommits.org/fr/v2.1.0/), assurant des messages de commit clairs et compréhensibles pour une gestion efficace du versionnement.
-
-| Type de Commit     | Description                                         | Exemple de Commande                              |
-|---------------------|-----------------------------------------------------|---------------------------------------------------|
-| `feat`              | Nouvelle fonctionnalité                              | `git commit -m "feat: ajout de la fonction X"`   |
-| `fix`               | Correction de bug                                   | `git commit -m "fix: résolution du bug Y"`       |
-| `docs`              | Modification de la documentation                    | `git commit -m "docs: mise à jour de la doc"`     |
-| `style`             | Modifications de style (sans impact sur le code)    | `git commit -m "style: ajustements de l'interface"` |
-| `refactor`          | Refactoring du code                                 | `git commit -m "refactor: amélioration de la structure"` |
-| `test`              | Ajout ou modification de tests                      | `git commit -m "test: ajout de tests pour la fonction Z"` |
-| `chore`             | Tâches de maintenance diverses                       | `git commit -m "chore: mise à jour des dépendances"` |
-
 ## Configurations de Husky et Git Hooks
 
 Nous utilisons [Husky](https://typicode.github.io/husky/) pour gérer les hooks Git. Voici comment
@@ -152,6 +138,20 @@ Assurez-vous d'avoir installé `lint-staged` et `commitlint` comme dépendances 
 ```
 
 Avec cette configuration, Husky exécutera `lint-staged` avant chaque commit pour vérifier les fichiers staged, et `commitlint` pour s'assurer que vos messages de commit suivent les normes définies.
+
+## Normes de Commit Git
+
+Nous suivons les normes de commit [Conventional Commits](https://www.conventionalcommits.org/fr/v2.1.0/), assurant des messages de commit clairs et compréhensibles pour une gestion efficace du versionnement.
+
+| Type de Commit     | Description                                         | Exemple de Commande                              |
+|---------------------|-----------------------------------------------------|---------------------------------------------------|
+| `feat`              | Nouvelle fonctionnalité                              | `git commit -m "feat: ajout de la fonction X"`   |
+| `fix`               | Correction de bug                                   | `git commit -m "fix: résolution du bug Y"`       |
+| `docs`              | Modification de la documentation                    | `git commit -m "docs: mise à jour de la doc"`     |
+| `style`             | Modifications de style (sans impact sur le code)    | `git commit -m "style: ajustements de l'interface"` |
+| `refactor`          | Refactoring du code                                 | `git commit -m "refactor: amélioration de la structure"` |
+| `test`              | Ajout ou modification de tests                      | `git commit -m "test: ajout de tests pour la fonction Z"` |
+| `chore`             | Tâches de maintenance diverses                       | `git commit -m "chore: mise à jour des dépendances"` |
 
 ## Contribuer
 
