@@ -1,6 +1,6 @@
-# Modèle Next.js avec Prettier, Storybook, Cypress, et Stitches pour les Interfaces Utilisateur Axées sur les Composants (CDUI)
+# Modèle Next.js avec Prettier, Storybook, Cypress, et Stitches pour le Développement Axé sur les Composants
 
-Bienvenue dans notre modèle Next.js complet, méticuleusement conçu pour améliorer votre expérience de développement avec Prettier pour la mise en forme du code, Storybook pour le développement de composants, Cypress pour les tests de bout en bout, et Stitches pour des styles et des thèmes sans couture. Ce modèle embrasse la philosophie des Interfaces Utilisateur Axées sur les Composants (CDUI), mettant l'accent sur la modularité, la réutilisabilité et la clarté dans la structure de votre application.
+Bienvenue dans notre modèle Next.js complet, méticuleusement conçu pour améliorer votre expérience de développement avec Prettier pour la mise en forme du code, Storybook pour le développement de composants, Cypress pour les tests de bout en bout, et Stitches pour des styles et des thèmes sans couture. Ce modèle embrasse la philosophie du Développement Axé sur les Composants, mettant l'accent sur la modularité, la réutilisabilité et la clarté dans la structure de votre application.
 
 ## Pour Commencer
 
@@ -55,11 +55,11 @@ Explorez la [documentation Cypress](https://docs.cypress.io/) pour des tests de 
 
 ## Stitches pour le Styling et les Thèmes
 
-[Stitches](https://stitches.dev/) renforce vos besoins en stylisme et theming. Personnalisez et étendez les styles avec facilité dans le fichier `stitches.config.js`.
+[Stitches](https://stitches.dev/) est une bibliothèque qui offre une approche novatrice pour la gestion des styles et des thèmes. Elle vous permet de définir vos styles directement dans votre code JavaScript, offrant ainsi une meilleure maintenabilité et une utilisation dynamique.Personnalisez et étendez les styles avec facilité dans le fichier `stitches.config.js`.
 
-## Interfaces Utilisateur Axées sur les Composants (CDUI)
+## Développement Axé sur les Composants
 
-Adoptez la philosophie du CDUI, mettant l'accent sur la construction d'interfaces à travers les composants. Explorez davantage le CDUI sur [ComponentDriven.org](https://www.componentdriven.org/). Cette approche met en avant les avantages de :
+Adoptez cette philosophie en mettant l'accent sur la construction d'interfaces à travers les composants. Explorez davantage le concept sur [ComponentDriven.org](https://www.componentdriven.org/). Cette approche met en avant les avantages suivants :
 
 - **Modularité :** Développez et itérez rapidement avec des composants isolés et testables indépendamment.
 - **Réutilisabilité :** Réutilisez des composants bien définis pour assurer une apparence cohérente dans votre application.
@@ -67,7 +67,7 @@ Adoptez la philosophie du CDUI, mettant l'accent sur la construction d'interface
 
 ## Structure de Dossiers
 
-Notre structure de dossiers respecte les meilleures pratiques établies pour la construction d'applications CDUI :
+Notre structure de dossiers respecte les meilleures pratiques établies pour le Développement Axé sur les Composants:
 
 ```plaintext
 .
@@ -105,9 +105,9 @@ Notre structure de dossiers respecte les meilleures pratiques établies pour la 
 └── ...
 ```
 
-Sentez le pouls de votre application dans chaque composant. Étendez et modifiez cette structure avec la confiance que chaque changement résonne à travers votre écosystème axé sur les composants.
+Étendez et modifiez cette structure avec la confiance que chaque changement résonne à travers votre écosystème axé sur les composants.
 
-## Avantages du CDUI
+## Avantages du Développement Axé sur les Composants
 
 - **Développement Efficace :** Construisez et itérez rapidement avec des composants isolés et testables indépendamment.
 - **Design Cohérent :** Assurez une apparence cohérente en réutilisant des composants bien définis.
