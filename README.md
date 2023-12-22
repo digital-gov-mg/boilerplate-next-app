@@ -1,4 +1,4 @@
-# Modèle Next.js avec Prettier, Storybook, Cypress, et Stitches pour le Développement Axé sur les Composants
+# Unité de Gouvernance Digitale - Template d'une application Next.js pour le Développement Axé sur les Composants.
 
 Bienvenue dans notre modèle Next.js complet, méticuleusement conçu pour améliorer votre expérience de développement avec Prettier pour la mise en forme du code, Storybook pour le développement de composants, Cypress pour les tests de bout en bout, et Stitches pour des styles et des thèmes sans couture. Ce modèle embrasse la philosophie du Développement Axé sur les Composants, mettant l'accent sur la modularité, la réutilisabilité et la clarté dans la structure de votre application.
 
