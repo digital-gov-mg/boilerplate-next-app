@@ -155,6 +155,6 @@ Avec cette configuration, Husky exécutera `lint-staged` avant chaque commit pou
 
 ## Contribuer
 
-Les contributions ne sont pas seulement les bienvenues ; elles sont célébrées ! Ouvrez des problèmes ou soumettez des demandes de tirage pour faire partie de notre parcours.
+Les contributions ne sont pas seulement les bienvenues ; elles sont célébrées ! Ouvrez des "issues" ou soumettez des "Pull Requests" pour faire partie de notre parcours.
 
-Adoptez la puissance des Interfaces Utilisateur Axées sur les Composants ! 🚀
+Adoptez la puissance du Développement Axé sur les Composants! 🚀
